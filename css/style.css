@@ -1,0 +1,15 @@
+body {
+  font: 16px 'Tahoma', sans-serif;
+  margin: 16px;
+  white-space: nowrap;
+}
+
+h1 {
+  font: 24px 'Kavoon', cursive;
+}
+
+li {
+  list-style: none;
+  margin-top: 8px;
+  white-space: nowrap;
+}
