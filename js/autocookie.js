@@ -27,7 +27,6 @@ $(document).ready(function() {
     chrome.storage.sync.get(id, function(result) {
       for (key in result) {
         if (result[key]) {
-          console.log("starting " + key);
           clickers[key].interval = clickers[key].start();
         }
       }
